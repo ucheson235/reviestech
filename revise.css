@@ -1,0 +1,97 @@
+.firstdiv{
+    text-align: center;
+     margin-block-end: 2%;
+    
+}
+#pink_btn{
+    border: palevioletred 2px solid;
+    border-radius: 17px;
+}
+.logo{
+    width: 38%;
+}
+nav{
+    margin-block-end: 10%;
+}
+.button-pink{
+    
+}
+.mockup{
+    width: 50%;
+    margin-left: 22%;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-around; 
+}
+/* DESKTOP FIRST APPROACH */
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+@media (max-width: 2560px) {
+    body{
+        background-color: yellow;
+        .firstdiv{
+            text-align: center;
+             margin-block-end: 2%;
+            
+        }
+        .logo{
+            width: 29% ;
+        }
+        nav{
+            margin-block-end: 10%;
+        }
+        .mockup{
+            width: 50%;
+            margin-left: 22%;
+        }
+        .seconddiv{
+            display: flex;
+            justify-content: space-around; 
+        }
+    /* } */
+    
+   
+	
+}
+@media (max-width: 1200px) {
+	/* ...
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+    body{
+        background-color: aqua;
+    }
+}
+@media (max-width: 992px) {	
+	/* ...
+	// rules here apply to devices from 769px to 992px (inclusive)
+	... */
+    body{
+        background-color: blue;
+    }
+  
+}
+@media (max-width: 768px) {
+    
+	/* ...
+	// rules here apply to devices from 0px to 768px (inclusive)
+	... */
+    
+
+
+}
+@media (max-width: 425px) {
+    .seconddiv{
+        display: block;
+        text-align: center;
+    }
+    
+
+}
+
+
+
+
+
+   
